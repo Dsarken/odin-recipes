@@ -13,15 +13,29 @@ h1 {
 /* Style the paragraph */
 p {
   font-size: 20px;
+  font-family: Arial, Helvetica, sans-serif;
   text-align: center;
+}
+
+#index-recipes {
+  list-style-type: none;
+  margin: 0;
+  padding: 20;
+  text-align: center;
+  display: inline-block;
+  font-size: 20px;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 /* Style the unordered list */
 ul {
   list-style-type: none;
   margin: 0;
-  padding: 0;
+  padding: 20;
   text-align: center;
+  display: grid;
+  font-size: 20px;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 /* Style the list items */
@@ -47,5 +61,7 @@ a:hover {
 
 /* Style the images */
 img {
-  border: #333;
+  border: 5px solid #333;
+  display: block;
+  margin: auto;
 }
