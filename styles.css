@@ -10,6 +10,19 @@ h1 {
   margin-top: 50px;
 }
 
+/* Style the second heading */
+body h2 {
+  font-size: 26px;
+  text-align: center;
+  margin-top: 50px;
+}
+
+body h3 {
+  font-size: 26px;
+  text-align: center;
+  margin-top: 50px;
+}
+
 /* Style the paragraph */
 p {
   font-size: 20px;
@@ -17,7 +30,11 @@ p {
   text-align: center;
 }
 
-#index-recipes {
+body {
+  text-align: center;
+}
+
+ul#index-recipes {
   list-style-type: none;
   margin: 0;
   padding: 20;
@@ -25,6 +42,7 @@ p {
   display: inline-block;
   font-size: 20px;
   font-family: Arial, Helvetica, sans-serif;
+  padding-right: 50px;
 }
 
 /* Style the unordered list */
@@ -41,7 +59,7 @@ ul {
 /* Style the list items */
 li {
   display: inline-block;
-  margin-right: 20px;
+  margin-right: 10px;
 }
 
 /* Style the links */
